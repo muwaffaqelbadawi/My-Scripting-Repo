@@ -12,3 +12,4 @@ git.exe reset --hard "<commit-hash>"
 git.exe pull "<remote>" "<branch>"
 git.exe rm "path/to/file"
 git.exe config --global init.defaultBranch main
+git.exe rm -rf --chached "file"
