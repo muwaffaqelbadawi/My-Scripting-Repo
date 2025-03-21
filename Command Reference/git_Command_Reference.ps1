@@ -20,7 +20,6 @@ git.exe merge "<remote>"/"<branch>"
 git.exe merge "<remote>"/"<branch>" --allow-unrelated-histories
 # Example: git.exe merge "origin"/"main" --allow-unrelated-histories
 
-
 # sync local repo branch with remote repo branch
 git.exe branch --set-upstream-to="<remote>"/"<branch>" "local_branch"
 # Example: git.exe branch --set-upstream-to="origin"/"main" "<main>"
@@ -46,7 +45,6 @@ git.exe pull "<remote>" "<branch>" --allow-unrelated-histories
 
 # show all local commits (use q to exit)
 git.exe log --oneline
-
 
 # show all remote commits avoid pager
 git.exe --no-pager log --oneline

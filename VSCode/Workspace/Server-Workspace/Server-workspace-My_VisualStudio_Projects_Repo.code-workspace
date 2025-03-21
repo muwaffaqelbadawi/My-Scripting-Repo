@@ -1,9 +1,10 @@
 {
   "folders": [
     {
-      "path": ".."
+      "path": "../.."
     }
   ],
+
   "settings": {
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.profiles.windows": {

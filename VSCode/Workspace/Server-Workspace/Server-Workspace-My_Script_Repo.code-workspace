@@ -1,10 +1,5 @@
 {
-  "folders": [
-    {
-      "path": "../../My_Visual_Studio_Projects_Repo"
-    }
-  ],
-
+  "folders": [],
   "settings": {
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.profiles.windows": {
