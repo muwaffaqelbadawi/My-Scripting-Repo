@@ -1,0 +1,3 @@
+"ConnectionStrings": {
+    "DefaultConnection": "Data Source=${Desktop_name}\\SQLEXPRESS;Initial Catalog=${Database_name};Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+  },

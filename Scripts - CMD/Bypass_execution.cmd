@@ -1,0 +1,1 @@
+cmd /min /C "Set __COMPAT_LAYER=runasinvoker && Start "" "%1"
