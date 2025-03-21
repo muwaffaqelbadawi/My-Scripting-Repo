@@ -28,6 +28,9 @@ git.exe branch --set-upstream-to="<remote>"/"<branch>" "local_branch"
 git.exe branch --track "<new-local-branch>" "<remote-branch>"
 # Example: git.exe branch --track "master" "<origin/master>"
 
+# Create a New Local Branch and Track a Remote Branch
+git.exe checkout -b "<main>" "<origin>"/"<main>"
+
 # add local repo to remote repo
 git.exe remote add "<remote>" "<remote-repo-url>"
 # Example: git.exe remote add "origin" "https://github/username/repo.git"
