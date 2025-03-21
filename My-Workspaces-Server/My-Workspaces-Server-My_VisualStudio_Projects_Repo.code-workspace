@@ -1,12 +1,7 @@
 {
   "folders": [
     {
-      "name": "SFTPClient",
-      "path": "../Visual Studio/Visual Studio Projects/SFTPClient/SFTPClient"
-    },
-    {
-      "name": "SFTPClientAsync",
-      "path": "../Visual Studio/Visual Studio Projects/SFTPClientAsync/SFTPClientAsync"
+      "path": "../../My_Visual_Studio_Projects_Repo"
     }
   ],
 
@@ -28,9 +23,15 @@
         "icon": "terminal-cmd"
       },
       "Git Bash": {
-        "source": "Git Bash",
-        "path": [],
-        "args": [],
+        "path": [
+          "${env:ProgramFiles}\\Git\\bin\\bash.exe",
+          "${env:ProgramFiles}\\Git\\bin\\git.exe",
+          "${env:ProgramFiles}\\Git\\bin\\sh.exe",
+          "${env:ProgramFiles}\\Git\\cmd\\git.exe",
+          "${env:ProgramFiles}\\Git\\git-bash.exe",
+          "${env:ProgramFiles}\\Git\\git-cmd.exe"
+        ],
+        "args": ["--login", "-i"],
         "icon": "terminal-bash"
       }
     },
