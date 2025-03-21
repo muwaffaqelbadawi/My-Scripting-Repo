@@ -1,5 +1,8 @@
+# Define username
 git.exe config --global user.name "Your Name"
+# Define user Email
 git.exe config --global user.email "you@example.com"
+# Define a proxy
 git.exe config --global https.proxy "https://IP:port"
 git.exe fetch origin
 git.exe merge origin/main --allow-unrelated-histories
